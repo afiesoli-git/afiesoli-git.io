@@ -1,1 +1,29 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+  <h1>Sudoku</h1>
+  <div id="lives">❤️ Vite: 3</div>
+  <div id="board"></div>
+
+  <div id="controls">
+    <div class="numbers"></div>
+    <div class="difficulty">
+      <div class="diff-btn selected" data-diff="easy">Facile</div>
+      <div class="diff-btn" data-diff="medium">Medio</div>
+      <div class="diff-btn" data-diff="hard">Difficile</div>
+    </div>
+    <div class="themes">
+      <div class="theme-btn selected" data-theme="dark">Scuro</div>
+      <div class="theme-btn" data-theme="light">Chiaro</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
